@@ -17,6 +17,9 @@
       position:absolute;
       width:100%; 
     } 
+    .top-icon{
+        display: flex;
+    }
     .Language{
       background:gray;
       color:white;
@@ -92,50 +95,6 @@
     font-size: 30px;
     padding: 0px 100px 0px 100px;
 }
-.top10{
-    padding: 10px 100px 10px 100px;
-    display:grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 170px;
-    overflow-x: scroll;
-    gap: 30px;
-}
-.top10-item{
-    position:relative;
-}
-.top10-item:hover{
-    position: relative;
-    padding: 0;
-    background: rgb(35, 35, 35);
-    border: none;
-    border-radius: 0.5rem;
-    -webkit-transition: -webkit-transform 0.2s ease-in-out;
-    transition: transform 0.2s ease-in-out;
-    cursor: pointer;
-
-}
-.top10-item span{
-    position:absolute;
-    left:-15px;
-    bottom:-10px;
-    font-size:5rem;
-    font-weight:bold;
-    color:black;
-    -webkit-text-stroke:2px #ffffff;
-}
-.top10::-webkit-scrollbar{
-    display: none;
-}
-.top10-item img{
-    width:100%;
-    border-radius:8px;
-}
-
-/* Hide default scrollbar */
-.top10::-webkit-scrollbar{
-    display:none;
-}
-
 /*-------Cards-------*/
 /* SECTION */
 .MR{
@@ -308,4 +267,3 @@ details[open] summary::after{
         min-height: 360px;
     }
 }
-
