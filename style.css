@@ -18,7 +18,8 @@
       width:100%; 
     } 
     .top-icon{
-        display: flex;
+      display: flex;
+      flex-direction: row;
     }
     .Language{
       background:rgb(26, 25, 25);
@@ -35,8 +36,8 @@
       border:none;
       padding:8px 16px;
       cursor:pointer;
-      border-radius:4px;
-      font-size: large;
+      border-radius:7px;
+      font-size: medium;
     }
     
     input{
@@ -52,14 +53,14 @@
       align-items:center;
       justify-content:center;
       text-align:center;
-      padding:0 20px;
+      padding:20px;
       
     }
     .hero h1{
       position: relative;
       z-index: 10;
       font-size:48px;
-      margin-bottom:20px;
+      margin-top:20px;
     }
     .hero h2{
       font-size:24px;
@@ -74,6 +75,7 @@
       display:flex;
       justify-content:center;
       flex-wrap:wrap;
+      padding: 8px;
     }
     .email-box input{
       padding:15px;
@@ -165,8 +167,8 @@
 /* -------- FAQ -------- */
 .HF{
     font-size: 30px;
-    padding: 20px 100px 0px 100px;
-    margin: 10px;
+    margin-left: 5px;
+    padding: auto;
 }
 .faq{
     padding: 10px 100px 10px 100px;
@@ -203,6 +205,9 @@ details[open] summary::after{
     font-size:1.1rem;
     line-height:1.6;
 }
+.ready {
+    padding: 4px;
+}
     footer{
       padding:40px 60px;
       color:#999;
@@ -227,7 +232,7 @@ details[open] summary::after{
 .footer-grid a:hover {
     color: #fff;
 }
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     .row {
         flex-direction: column;
         text-align: center;
@@ -242,7 +247,7 @@ details[open] summary::after{
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
     .footer-grid {
         grid-template-columns: 1fr;
     }
