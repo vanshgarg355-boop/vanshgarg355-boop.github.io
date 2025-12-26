@@ -266,4 +266,8 @@ details[open] summary::after{
     .Tranding{
         min-height: 360px;
     }
+    .faq{
+        padding: 10px;
+        width: 100%;
+    }
 }
